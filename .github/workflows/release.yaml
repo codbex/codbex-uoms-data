@@ -1,0 +1,31 @@
+name: Release - Module
+
+on:
+  workflow_dispatch:
+    inputs:
+      release-version:
+        description: Release Version
+        required: true
+        default: 1.0.0
+
+run-name: 'version set to ${{ inputs.release-version }} for release'
+
+jobs:
+  main:
+    uses: codbex/codbex-infra/.github/workflows/module-release.yaml@main
+    with:
+      packages: codbex-uoms-data
+      packages-build: codbex-uoms-data
+      release-version: ${{ inputs.release-version }}
+      release-content: |
+        ## codbex-uoms-data - ${{ inputs.release-version }}
+  
+        UoMs Data Module
+  
+        ## Installation
+  
+        ```
+        npm install @codbex/codbex-uoms-data@${{ inputs.release-version }}
+        ```
+  
+    secrets: inherit
