@@ -1,0 +1,31 @@
+{
+    "name": "CODBEX_UOM_LANG",
+    "type": "TABLE",
+    "columns": [
+        {
+            "name": "Id",
+            "type": "INTEGER",
+            "length": "0",
+            "nullable": false,
+            "primaryKey": false,
+            "defaultValue": "",
+            "unique": false
+        },
+        {
+            "name": "Name",
+            "type": "VARCHAR",
+            "length": "100",
+            "primaryKey": false,
+            "unique": false,
+            "nullable": false
+        },
+        {
+            "name": "Language",
+            "type": "CHAR",
+            "length": "2",
+            "primaryKey": false,
+            "unique": false,
+            "nullable": false
+        }
+    ]
+}
