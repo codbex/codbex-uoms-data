@@ -19,7 +19,30 @@
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
+      "distinguishEmptyFromNull": true,
+      "version": "1.0.0"
+    },
+    {
+      "table": "CODBEX_DIMENSION_LANG",
+      "schema": "PUBLIC",
+      "file": "/codbex-uoms-data/dimensions-lang.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "1.0.0"
+    },
+    {
+      "table": "CODBEX_UOM_LANG",
+      "schema": "PUBLIC",
+      "file": "/codbex-uoms-data/uoms-lang.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "1.0.0"
     }
   ]
 }
