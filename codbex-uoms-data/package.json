@@ -1,6 +1,6 @@
 {
     "name": "@codbex/codbex-uoms-data",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "repository": {
         "url": "https://github.com/codbex/codbex-uoms-data.git",
         "type": "git"
