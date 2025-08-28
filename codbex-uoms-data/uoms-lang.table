@@ -27,5 +27,8 @@
             "unique": false,
             "nullable": false
         }
+    ],
+    "dependencies": [
+        "table:/codbex-uoms-data/dimensions-lang.table:CODBEX_DIMENSION_LANG"
     ]
 }
