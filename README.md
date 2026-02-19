@@ -3,7 +3,8 @@ UoMs Management Data
 
 ## Overview
 
-Contains a set of units of measures and dimensions to be used by applications.
+- Contains a set of units of measures and dimensions to be used by applications.
+- Provides data for [codbex-uoms](https://github.com/codbex/codbex-uoms) module.
 
 ## References
 
