@@ -3,6 +3,15 @@
     "type": "TABLE",
     "columns": [
         {
+            "name": "GUID",
+            "type": "INTEGER",
+            "length": "0",
+            "nullable": false,
+            "primaryKey": true,
+            "defaultValue": "",
+            "unique": true
+        },
+        {
             "name": "Id",
             "type": "INTEGER",
             "length": "0",
