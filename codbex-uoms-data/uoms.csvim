@@ -3,46 +3,50 @@
     {
       "table": "CODBEX_DIMENSION",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/dimensions.csv",
+      "file": "/codbex-uoms-data/dimension/dimensions.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
-      "version": "1.0.0"
+      "version": "1.0",
+      "sequence": "CODBEX_DIMENSION_SEQ"
     },
     {
       "table": "CODBEX_UOM",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/uoms.csv",
+      "file": "/codbex-uoms-data/uom/uoms.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
-      "version": "1.0.0"
+      "version": "1.0",
+      "sequence": "CODBEX_UOM_SEQ"
     },
     {
       "table": "CODBEX_DIMENSION_LANG",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/dimensions-lang.csv",
+      "file": "/codbex-uoms-data/dimension/dimensions-lang.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
-      "version": "1.0.0"
+      "version": "1.0",
+      "sequence": "CODBEX_DIMENSION_LANG_SEQ"
     },
     {
       "table": "CODBEX_UOM_LANG",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/uoms-lang.csv",
+      "file": "/codbex-uoms-data/uom/uoms-lang.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
-      "version": "1.0.0"
+      "version": "1.0",
+      "sequence": "CODBEX_UOM_LANG_SEQ"
     }
   ]
 }
