@@ -3,7 +3,7 @@
     {
       "table": "CODBEX_DIMENSION",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/dimension/dimensions.csv",
+      "file": "/codbex-uoms-data/dimension/data.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -15,7 +15,7 @@
     {
       "table": "CODBEX_UOM",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/uom/uoms.csv",
+      "file": "/codbex-uoms-data/uom/data.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -27,7 +27,7 @@
     {
       "table": "CODBEX_DIMENSION_LANG",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/dimension/dimensions-lang.csv",
+      "file": "/codbex-uoms-data/dimension/lang.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -39,7 +39,7 @@
     {
       "table": "CODBEX_UOM_LANG",
       "schema": "PUBLIC",
-      "file": "/codbex-uoms-data/uom/uoms-lang.csv",
+      "file": "/codbex-uoms-data/uom/lang.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
