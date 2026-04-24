@@ -3,6 +3,7 @@
 ## 📖 Table of Contents
 * [🧩 Core Entities](#-core-entities)
 * [🔗 References](#-references)
+* [📦 Data](#-data)
 * [🐳 Local Development with Docker](#-local-development-with-docker)
 
 ## 📦 Data 
