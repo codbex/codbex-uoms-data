@@ -7,8 +7,8 @@
 
 ## 📦 Data 
 
-* [Dimension](https://github.com/codbex/codbex-uoms-data/codbex-uoms-data/dimension)
-* [Uom](https://github.com/codbex/codbex-uoms-data/codbex-uoms-data/uom) 
+* [Dimension](https://github.com/codbex/codbex-uoms-data/tree/main/codbex-uoms-data/dimension)
+* [Uom](https://github.com/codbex/codbex-uoms-data/tree/main/codbex-uoms-data/uom) 
 
 ## 🔗 References
 
