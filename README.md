@@ -1,7 +1,6 @@
 # <img src="https://www.codbex.com/icon.svg" width="32" style="vertical-align: middle;"> codbex-uoms-data
 
 ## 📖 Table of Contents
-* [🧩 Core Entities](#-core-entities)
 * [🔗 References](#-references)
 * [📦 Data](#-data)
 * [🐳 Local Development with Docker](#-local-development-with-docker)
