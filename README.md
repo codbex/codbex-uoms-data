@@ -1,8 +1,8 @@
 # <img src="https://www.codbex.com/icon.svg" width="32" style="vertical-align: middle;"> codbex-uoms-data
 
 ## 📖 Table of Contents
-* [🔗 References](#-references)
 * [📦 Data](#-data)
+* [🔗 References](#-references)
 * [🐳 Local Development with Docker](#-local-development-with-docker)
 
 ## 📦 Data 
