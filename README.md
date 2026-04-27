@@ -1,17 +1,21 @@
-# codbex-uoms-data
-UoMs Management Data
+# <img src="https://www.codbex.com/icon.svg" width="32" style="vertical-align: middle;"> codbex-uoms-data
 
-## Overview
+## 📖 Table of Contents
+* [📦 Data](#-data)
+* [🔗 References](#-references)
+* [🐳 Local Development with Docker](#-local-development-with-docker)
 
-- Contains a set of units of measures and dimensions to be used by applications.
-- Provides data for [codbex-uoms](https://github.com/codbex/codbex-uoms) module.
+## 📦 Data 
 
-## References
+* [Dimension](https://github.com/codbex/codbex-uoms-data/tree/main/codbex-uoms-data/dimension)
+* [Uom](https://github.com/codbex/codbex-uoms-data/tree/main/codbex-uoms-data/uom) 
+
+## 🔗 References
 
 * [Guide for the Use of the International System of Units (SI)](https://physics.nist.gov/cuu/pdf/sp811.pdf)
 * [Master List of Unit of Measures](https://help.sap.com/docs/SAP_Predictive_Maintenance_and_Service/a6d34dd348294e6daa2b3a5b601a4838/3471d66aa8c3417ea10b8deea2178f43.html)
 
-## Local Development with Docker
+## 🐳 Local Development with Docker
 
 When running this project inside the codbex Atlas Docker image, you must provide authentication for installing dependencies from GitHub Packages.
 1. Create a GitHub Personal Access Token (PAT) with `read:packages` scope.
